@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     siteName: 'Hossam Sabry Portfolio',
     images: [
       {
-        url: '/images/social-preview.jpg',
+        url: '/images/profile-photo.jpg',
         width: 1200,
         height: 630,
         alt: 'Hossam Sabry - BIM Structural Engineer',
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Hossam Sabry | BIM Structural Engineer',
     description: 'Portfolio of Hossam Sabry, a BIM Structural Engineer specializing in Revit modeling, shop drawings, coordination, and Revit API / Dynamo automation.',
-    images: ['/images/social-preview.jpg'],
+    images: ['/images/profile-photo.jpg'],
   },
 };
 

@@ -14,21 +14,9 @@ interface GalleryImage {
 const galleries: Record<string, GalleryImage[]> = {
   'revit-structural': [
     { src: '/projects/revit-structural/revit-structural-3d-front.jpg', caption: 'Al-Burouj Complex - 3D Isometric View (Front)' },
-    { src: '/projects/revit-structural/revit-structural-3d-side.jpg', caption: 'Al-Burouj Complex - 3D Isometric View (Side)' },
-    { src: '/projects/revit-structural/revit-structural-elevation1.jpg', caption: 'Al-Burouj Complex - Structural Elevation View 1' },
-    { src: '/projects/revit-structural/revit-structural-elevation2.jpg', caption: 'Al-Burouj Complex - Structural Elevation View 2' },
-    { src: '/projects/revit-structural/revit-structural-section1.jpg', caption: 'Al-Burouj Complex - Structural Section View 1' },
-    { src: '/projects/revit-structural/revit-structural-section2.jpg', caption: 'Al-Burouj Complex - Structural Section View 2' },
   ],
   'revit-course': [
     { src: '/projects/revit-course/revit-course-01.png', caption: 'Emirates HSC Tower - 3D Structural Model' },
-    { src: '/projects/revit-course/revit-course-02.png', caption: 'Emirates HSC Tower - Structural Framing Plan' },
-    { src: '/projects/revit-course/revit-course-03.png', caption: 'Emirates HSC Tower - Typical Level Elevation' },
-    { src: '/projects/revit-course/revit-course-04.png', caption: 'Emirates HSC Tower - RC Shear Core Detail' },
-    { src: '/projects/revit-course/revit-course-05.png', caption: 'Emirates HSC Tower - Foundation & Pile Cap Plan' },
-    { src: '/projects/revit-course/revit-course-06.png', caption: 'Emirates HSC Tower - Column Schedule Layout' },
-    { src: '/projects/revit-course/revit-course-07.png', caption: 'Emirates HSC Tower - 3D Structural Skeleton Wireframe' },
-    { src: '/projects/revit-course/revit-course-08.png', caption: 'Emirates HSC Tower - Rebar & Concrete Detail' },
   ]
 };
 
@@ -137,7 +125,7 @@ export default function Work() {
                 <div className="flex-1 relative min-h-[220px] md:min-h-0 rounded-2xl overflow-hidden border border-white/5 bg-[#121216]">
                   <Image src="/projects/revit-course/revit-course-01.png" alt="Emirates High-Rise Tower structural rendering" fill sizes="(max-width: 768px) 100vw, 50vw" quality={90} className="object-cover object-center opacity-80 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700 animate-in fade-in" />
                   <div className="absolute bottom-3 right-3 bg-black/75 border border-white/10 rounded-md px-2 py-1 text-[10px] font-mono text-white flex items-center gap-1.5">
-                    <span>📷 8 Photos</span>
+                    <span>📷 1 Photo</span>
                   </div>
                 </div>
               </div>
@@ -168,7 +156,7 @@ export default function Work() {
                 <div className="relative h-[180px] mt-auto rounded-xl overflow-hidden border border-white/5 bg-[#121216]">
                   <Image src="/projects/revit-structural/revit-structural-3d-front.jpg" alt="Al-Burouj structural rendering" fill sizes="(max-width: 768px) 100vw, 30vw" quality={90} className="object-cover object-center opacity-80 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700" />
                   <div className="absolute bottom-3 right-3 bg-black/75 border border-white/10 rounded-md px-2 py-1 text-[10px] font-mono text-white">
-                    📷 6 Views
+                    📷 1 View
                   </div>
                 </div>
               </div>
