@@ -124,9 +124,9 @@ export default function Work() {
                   </div>
                 </div>
                 
-                <div className="flex-1 relative min-h-[220px] md:min-h-0 rounded-2xl overflow-hidden border border-white/5 bg-[#121216]">
-                  <Image src="/projects/revit-course/revit-course-01.png" alt="Emirates High-Rise Tower structural rendering" fill sizes="(max-width: 768px) 100vw, 50vw" quality={90} className="object-cover object-center opacity-80 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700 animate-in fade-in" />
-                  <div className="absolute bottom-3 right-3 bg-black/75 border border-white/10 rounded-md px-2 py-1 text-[10px] font-mono text-white flex items-center gap-1.5">
+                <div className="flex-1 relative min-h-[220px] md:min-h-0 rounded-2xl overflow-hidden border border-white/5 bg-[#121216]" onContextMenu={(e) => e.preventDefault()}>
+                  <Image src="/projects/revit-course/revit-course-01.png" alt="Emirates High-Rise Tower structural rendering" fill sizes="(max-width: 768px) 100vw, 50vw" quality={90} className="object-cover object-center opacity-80 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700 animate-in fade-in pointer-events-none select-none" draggable="false" />
+                  <div className="absolute bottom-3 right-3 bg-black/75 border border-white/10 rounded-md px-2 py-1 text-[10px] font-mono text-white flex items-center gap-1.5 z-20">
                     <span>📷 3 Photos</span>
                   </div>
                 </div>
@@ -155,9 +155,9 @@ export default function Work() {
                   Detailed multi-story reinforced concrete structural complex modeled in Autodesk Revit, featuring foundation systems, beams, columns, levels, and sections.
                 </p>
 
-                <div className="relative h-[180px] mt-auto rounded-xl overflow-hidden border border-white/5 bg-[#121216]">
-                  <Image src="/projects/revit-structural/revit-structural-3d-front.jpg" alt="Al-Burouj structural rendering" fill sizes="(max-width: 768px) 100vw, 30vw" quality={90} className="object-cover object-center opacity-80 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700" />
-                  <div className="absolute bottom-3 right-3 bg-black/75 border border-white/10 rounded-md px-2 py-1 text-[10px] font-mono text-white">
+                <div className="relative h-[180px] mt-auto rounded-xl overflow-hidden border border-white/5 bg-[#121216]" onContextMenu={(e) => e.preventDefault()}>
+                  <Image src="/projects/revit-structural/revit-structural-3d-front.jpg" alt="Al-Burouj structural rendering" fill sizes="(max-width: 768px) 100vw, 30vw" quality={90} className="object-cover object-center opacity-80 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700 pointer-events-none select-none" draggable="false" />
+                  <div className="absolute bottom-3 right-3 bg-black/75 border border-white/10 rounded-md px-2 py-1 text-[10px] font-mono text-white z-20">
                     📷 1 View
                   </div>
                 </div>
@@ -338,26 +338,30 @@ export default function Work() {
             </h3>
 
             {/* Main Active Image View */}
-            <div className="relative aspect-[16/10] w-full rounded-lg overflow-hidden bg-black/40 border border-white/5 flex items-center justify-center">
+            <div className="relative aspect-[16/10] w-full rounded-lg overflow-hidden bg-black/40 border border-white/5 flex items-center justify-center" onContextMenu={(e) => e.preventDefault()}>
               <Image 
                 src={galleryImages[currentIndex].src} 
                 alt={galleryImages[currentIndex].caption} 
                 fill 
                 sizes="(max-width: 900px) 100vw, 900px"
-                className="object-contain" 
+                className="object-contain pointer-events-none select-none" 
                 priority
+                draggable="false"
               />
               
+              {/* Invisible Protective Overlay */}
+              <div className="absolute inset-0 z-10 bg-transparent select-none"></div>
+
               {/* Navigation Arrows */}
               <button 
                 onClick={handlePrev}
-                className="absolute left-4 w-10 h-10 rounded-full bg-black/60 border border-white/10 flex items-center justify-center text-white hover:bg-black/80 transition-colors cursor-pointer text-lg"
+                className="absolute left-4 w-10 h-10 rounded-full bg-black/60 border border-white/10 flex items-center justify-center text-white hover:bg-black/80 transition-colors cursor-pointer text-lg z-20"
               >
                 &#8249;
               </button>
               <button 
                 onClick={handleNext}
-                className="absolute right-4 w-10 h-10 rounded-full bg-black/60 border border-white/10 flex items-center justify-center text-white hover:bg-black/80 transition-colors cursor-pointer text-lg"
+                className="absolute right-4 w-10 h-10 rounded-full bg-black/60 border border-white/10 flex items-center justify-center text-white hover:bg-black/80 transition-colors cursor-pointer text-lg z-20"
               >
                 &#8250;
               </button>
@@ -369,14 +373,15 @@ export default function Work() {
             </div>
 
             {/* Thumbnails Row */}
-            <div className="flex gap-2 overflow-x-auto py-2 px-1 max-w-full justify-start md:justify-center border-t border-white/5">
+            <div className="flex gap-2 overflow-x-auto py-2 px-1 max-w-full justify-start md:justify-center border-t border-white/5" onContextMenu={(e) => e.preventDefault()}>
               {galleryImages.map((img, idx) => (
                 <div 
                   key={idx}
                   onClick={(e) => selectThumb(e, idx)}
                   className={`relative w-16 md:w-20 aspect-[16/10] rounded-md overflow-hidden border-2 cursor-pointer transition-colors shrink-0 ${idx === currentIndex ? 'border-brand' : 'border-white/10 hover:border-white/30'}`}
                 >
-                  <Image src={img.src} alt="Thumbnail view" fill sizes="80px" className="object-cover" />
+                  <Image src={img.src} alt="Thumbnail view" fill sizes="80px" className="object-cover pointer-events-none select-none" draggable="false" />
+                  <div className="absolute inset-0 bg-transparent z-10"></div>
                 </div>
               ))}
             </div>

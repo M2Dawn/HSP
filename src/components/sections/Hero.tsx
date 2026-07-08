@@ -157,15 +157,16 @@ export default function Hero() {
               </div>
 
                {/* Image Preview */}
-              <div className="relative aspect-[16/10] w-full rounded-2xl overflow-hidden border border-white/5 bg-[#121216] mb-4 shadow-inner">
+              <div className="relative aspect-[16/10] w-full rounded-2xl overflow-hidden border border-white/5 bg-[#121216] mb-4 shadow-inner" onContextMenu={(e) => e.preventDefault()}>
                 <Image 
                   src="/projects/revit-course/revit-course-01.png" 
                   alt="Emirates High-Rise Tower (HSC)" 
                   fill 
                   sizes="(max-width: 768px) 100vw, 45vw"
-                  className="object-cover object-center opacity-90 group-hover:opacity-100 group-hover:scale-[1.03] transition-all duration-700" 
+                  className="object-cover object-center opacity-90 group-hover:opacity-100 group-hover:scale-[1.03] transition-all duration-700 pointer-events-none select-none" 
                   priority
                   loading="eager"
+                  draggable="false"
                 />
               </div>
 
