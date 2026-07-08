@@ -117,7 +117,7 @@ export default function Work() {
                     </div>
                   </div>
                   
-                  <h3 className="font-heading text-2xl font-bold text-white mb-3 group-hover:text-brand-light transition-colors">UAE HSC Tower Project</h3>
+                  <h3 className="font-heading text-2xl font-bold text-white mb-3 group-hover:text-brand-light transition-colors">Emirates High-Rise Tower (HSC)</h3>
                   <p className="text-[0.95rem] text-text-2 leading-relaxed mb-6 font-medium">
                     A complex high-rise structural tower modeled in Autodesk Revit. Highlights multi-story structural framing systems, structural core modeling, level constraints, foundation detailing, and professional BIM documentation templates.
                   </p>
@@ -135,7 +135,7 @@ export default function Work() {
                 </div>
                 
                 <div className="flex-1 relative min-h-[220px] md:min-h-0 rounded-2xl overflow-hidden border border-white/5 bg-[#121216]">
-                  <Image src="/projects/revit-course/revit-course-01.png" alt="UAE HSC Tower structural rendering" fill sizes="(max-width: 768px) 100vw, 50vw" quality={90} className="object-cover object-center opacity-80 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700 animate-in fade-in" />
+                  <Image src="/projects/revit-course/revit-course-01.png" alt="Emirates High-Rise Tower structural rendering" fill sizes="(max-width: 768px) 100vw, 50vw" quality={90} className="object-cover object-center opacity-80 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700 animate-in fade-in" />
                   <div className="absolute bottom-3 right-3 bg-black/75 border border-white/10 rounded-md px-2 py-1 text-[10px] font-mono text-white flex items-center gap-1.5">
                     <span>📷 8 Photos</span>
                   </div>
@@ -154,19 +154,19 @@ export default function Work() {
                 <div className="absolute -inset-px bg-gradient-to-b from-brand/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-[1.5rem] pointer-events-none"></div>
 
                 <div className="flex items-center justify-between mb-4">
-                  <span className="text-[10px] font-mono uppercase tracking-[0.15em] text-brand-light font-bold">5-Story RC Frame &middot; Revit</span>
+                  <span className="text-[10px] font-mono uppercase tracking-[0.15em] text-brand-light font-bold">Al-Burouj Project &middot; Revit</span>
                   <div className="w-8 h-8 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-white group-hover:bg-brand group-hover:border-brand transition-all duration-300">
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
                   </div>
                 </div>
                 
-                <h3 className="font-heading text-xl font-bold text-white mb-2 group-hover:text-brand-light transition-colors">RC Frame Model</h3>
+                <h3 className="font-heading text-xl font-bold text-white mb-2 group-hover:text-brand-light transition-colors">Al-Burouj Structural Complex</h3>
                 <p className="text-[0.9rem] text-text-2 leading-relaxed mb-6 font-medium">
-                  Detailed 5-story reinforced concrete frame structure modeled in Autodesk Revit, featuring foundational systems, beams, columns, level elevations, and section details.
+                  Detailed multi-story reinforced concrete structural complex modeled in Autodesk Revit, featuring foundation systems, beams, columns, levels, and sections.
                 </p>
 
                 <div className="relative h-[180px] mt-auto rounded-xl overflow-hidden border border-white/5 bg-[#121216]">
-                  <Image src="/projects/revit-structural/revit-structural-3d-front.jpg" alt="RC Frame model rendering" fill sizes="(max-width: 768px) 100vw, 30vw" quality={90} className="object-cover object-center opacity-80 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700" />
+                  <Image src="/projects/revit-structural/revit-structural-3d-front.jpg" alt="Al-Burouj structural rendering" fill sizes="(max-width: 768px) 100vw, 30vw" quality={90} className="object-cover object-center opacity-80 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700" />
                   <div className="absolute bottom-3 right-3 bg-black/75 border border-white/10 rounded-md px-2 py-1 text-[10px] font-mono text-white">
                     📷 6 Views
                   </div>

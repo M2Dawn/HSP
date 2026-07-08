@@ -156,11 +156,11 @@ export default function Hero() {
                 </span>
               </div>
 
-              {/* Image Preview */}
+               {/* Image Preview */}
               <div className="relative aspect-[16/10] w-full rounded-2xl overflow-hidden border border-white/5 bg-[#121216] mb-4 shadow-inner">
                 <Image 
                   src="/projects/revit-course/revit-course-01.png" 
-                  alt="UAE HSC Tower Revit Model" 
+                  alt="Emirates High-Rise Tower (HSC)" 
                   fill 
                   sizes="(max-width: 768px) 100vw, 45vw"
                   className="object-cover object-center opacity-90 group-hover:opacity-100 group-hover:scale-[1.03] transition-all duration-700" 
@@ -172,7 +172,7 @@ export default function Hero() {
               {/* BIM Model Specifications */}
               <div className="grid grid-cols-3 gap-4 border-t border-white/5 pt-4 relative z-10">
                 <div>
-                  <div className="text-xl font-bold text-white tracking-tight">UAE HSC</div>
+                  <div className="text-xl font-bold text-white tracking-tight">Emirates HSC</div>
                   <div className="text-[10px] text-text-3 font-semibold uppercase tracking-wider mt-1">Structure</div>
                 </div>
                 <div>
