@@ -17,6 +17,8 @@ const galleries: Record<string, GalleryImage[]> = {
   ],
   'revit-course': [
     { src: '/projects/revit-course/revit-course-01.png', caption: 'Emirates HSC Tower - 3D Structural Model' },
+    { src: '/projects/revit-course/revit-course-02.png', caption: 'Emirates HSC Tower - Floor Partition Layout Plan' },
+    { src: '/projects/revit-course/revit-course-03.png', caption: 'Emirates HSC Tower - Structural Column Dimension Plan' },
   ]
 };
 
@@ -125,7 +127,7 @@ export default function Work() {
                 <div className="flex-1 relative min-h-[220px] md:min-h-0 rounded-2xl overflow-hidden border border-white/5 bg-[#121216]">
                   <Image src="/projects/revit-course/revit-course-01.png" alt="Emirates High-Rise Tower structural rendering" fill sizes="(max-width: 768px) 100vw, 50vw" quality={90} className="object-cover object-center opacity-80 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700 animate-in fade-in" />
                   <div className="absolute bottom-3 right-3 bg-black/75 border border-white/10 rounded-md px-2 py-1 text-[10px] font-mono text-white flex items-center gap-1.5">
-                    <span>📷 1 Photo</span>
+                    <span>📷 3 Photos</span>
                   </div>
                 </div>
               </div>
