@@ -165,6 +165,7 @@ export default function Hero() {
                   sizes="(max-width: 768px) 100vw, 45vw"
                   className="object-cover object-center opacity-90 group-hover:opacity-100 group-hover:scale-[1.03] transition-all duration-700" 
                   priority
+                  loading="eager"
                 />
               </div>
 
