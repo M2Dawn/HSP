@@ -209,7 +209,7 @@ export default function Work() {
                 </div>
 
                 <div className="relative h-[220px] mt-auto rounded-xl overflow-hidden border border-white/5 bg-[#121216]">
-                  <Image src="/images/bim-tool-hero.png" alt="BIM Exporter interface" fill sizes="(max-width: 768px) 100vw, 40vw" quality={90} className="object-cover object-top opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700" />
+                  <Image src="/images/bim-tool-hero.png" alt="BIM Exporter interface" fill sizes="(max-width: 768px) 100vw, 40vw" quality={90} className="object-cover object-center opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700" />
                 </div>
               </a>
             </SpotlightCard>
