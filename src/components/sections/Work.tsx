@@ -13,22 +13,22 @@ interface GalleryImage {
 
 const galleries: Record<string, GalleryImage[]> = {
   'revit-structural': [
-    { src: '/projects/revit-structural/revit-structural-3d-front.jpg', caption: '3D Isometric View - Front Angle' },
-    { src: '/projects/revit-structural/revit-structural-3d-side.jpg', caption: '3D Isometric View - Side Angle' },
-    { src: '/projects/revit-structural/revit-structural-elevation1.jpg', caption: 'Structural Elevation View 1' },
-    { src: '/projects/revit-structural/revit-structural-elevation2.jpg', caption: 'Structural Elevation View 2' },
-    { src: '/projects/revit-structural/revit-structural-section1.jpg', caption: 'Structural Section View 1' },
-    { src: '/projects/revit-structural/revit-structural-section2.jpg', caption: 'Structural Section View 2' },
+    { src: '/projects/revit-structural/revit-structural-3d-front.jpg', caption: 'Al-Burouj Complex - 3D Isometric View (Front)' },
+    { src: '/projects/revit-structural/revit-structural-3d-side.jpg', caption: 'Al-Burouj Complex - 3D Isometric View (Side)' },
+    { src: '/projects/revit-structural/revit-structural-elevation1.jpg', caption: 'Al-Burouj Complex - Structural Elevation View 1' },
+    { src: '/projects/revit-structural/revit-structural-elevation2.jpg', caption: 'Al-Burouj Complex - Structural Elevation View 2' },
+    { src: '/projects/revit-structural/revit-structural-section1.jpg', caption: 'Al-Burouj Complex - Structural Section View 1' },
+    { src: '/projects/revit-structural/revit-structural-section2.jpg', caption: 'Al-Burouj Complex - Structural Section View 2' },
   ],
   'revit-course': [
-    { src: '/projects/revit-course/revit-course-01.png', caption: 'UAE HSC Tower - 3D Render' },
-    { src: '/projects/revit-course/revit-course-02.png', caption: 'UAE HSC Tower - Structural Framing Plan' },
-    { src: '/projects/revit-course/revit-course-03.png', caption: 'UAE HSC Tower - Elevation View' },
-    { src: '/projects/revit-course/revit-course-04.png', caption: 'UAE HSC Tower - Concrete Core Detail' },
-    { src: '/projects/revit-course/revit-course-05.png', caption: 'UAE HSC Tower - Foundation Plan' },
-    { src: '/projects/revit-course/revit-course-06.png', caption: 'UAE HSC Tower - Typical Column Schedule' },
-    { src: '/projects/revit-course/revit-course-07.png', caption: 'UAE HSC Tower - 3D Skeleton Wireframe' },
-    { src: '/projects/revit-course/revit-course-08.png', caption: 'UAE HSC Tower - 3D Structural Detail' },
+    { src: '/projects/revit-course/revit-course-01.png', caption: 'Emirates HSC Tower - 3D Structural Model' },
+    { src: '/projects/revit-course/revit-course-02.png', caption: 'Emirates HSC Tower - Structural Framing Plan' },
+    { src: '/projects/revit-course/revit-course-03.png', caption: 'Emirates HSC Tower - Typical Level Elevation' },
+    { src: '/projects/revit-course/revit-course-04.png', caption: 'Emirates HSC Tower - RC Shear Core Detail' },
+    { src: '/projects/revit-course/revit-course-05.png', caption: 'Emirates HSC Tower - Foundation & Pile Cap Plan' },
+    { src: '/projects/revit-course/revit-course-06.png', caption: 'Emirates HSC Tower - Column Schedule Layout' },
+    { src: '/projects/revit-course/revit-course-07.png', caption: 'Emirates HSC Tower - 3D Structural Skeleton Wireframe' },
+    { src: '/projects/revit-course/revit-course-08.png', caption: 'Emirates HSC Tower - Rebar & Concrete Detail' },
   ]
 };
 
