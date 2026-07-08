@@ -13,11 +13,10 @@ export const metadata: Metadata = {
   description: 'Portfolio of Hossam Sabry, a BIM Structural Engineer specializing in Revit modeling, shop drawings, coordination, and Revit API / Dynamo automation.',
   icons: {
     icon: [
-      { url: '/favicon.svg', type: 'image/svg+xml' },
-      { url: '/favicon.ico' },
+      { url: '/favicon.ico', type: 'image/x-icon' },
     ],
     apple: [
-      { url: '/favicon.svg', sizes: '180x180' },
+      { url: '/favicon.ico', sizes: '180x180' },
     ],
   },
   openGraph: {
