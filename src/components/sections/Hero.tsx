@@ -176,7 +176,7 @@ export default function Hero() {
                   <div className="text-[10px] text-text-3 font-semibold uppercase tracking-wider mt-1">Structure</div>
                 </div>
                 <div>
-                  <div className="text-xl font-bold text-white tracking-tight">36</div>
+                  <div className="text-xl font-bold text-white tracking-tight">12</div>
                   <div className="text-[10px] text-text-3 font-semibold uppercase tracking-wider mt-1">Slab Levels</div>
                 </div>
                 <div>
