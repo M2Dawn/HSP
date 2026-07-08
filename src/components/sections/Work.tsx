@@ -208,7 +208,7 @@ export default function Work() {
                   </div>
                 </div>
 
-                <div className="relative h-[150px] mt-auto rounded-xl overflow-hidden border border-white/5 bg-[#121216]">
+                <div className="relative h-[220px] mt-auto rounded-xl overflow-hidden border border-white/5 bg-[#121216]">
                   <Image src="/images/bim-tool-hero.png" alt="BIM Exporter interface" fill sizes="(max-width: 768px) 100vw, 40vw" quality={90} className="object-cover object-top opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700" />
                 </div>
               </a>
@@ -233,7 +233,7 @@ export default function Work() {
                   Collection of modular Dynamo script tools for Revit. Automates repetitive room numbering, sheet configuration setup, and key parameters audit checks using Python nodes.
                 </p>
 
-                <div className="relative h-[150px] mt-auto rounded-xl overflow-hidden border border-white/5 bg-[#121216]">
+                <div className="relative h-[220px] mt-auto rounded-xl overflow-hidden border border-white/5 bg-[#121216]">
                   <Image src="/images/dynamo-hero.png" alt="Dynamo visual programming workspace" fill sizes="(max-width: 768px) 100vw, 30vw" quality={90} className="object-cover object-top opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700" />
                 </div>
               </a>
