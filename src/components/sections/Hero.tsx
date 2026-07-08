@@ -132,7 +132,7 @@ export default function Hero() {
               
               <div className="flex flex-col gap-1.5">
                 <span className="text-3xl md:text-4xl font-semibold text-white tracking-tight">2</span>
-                <span className="text-sm text-text-2 font-medium">AEC Fellowships</span>
+                <span className="text-sm text-text-2 font-medium">AEC Programs</span>
               </div>
             </div>
           </Reveal>
