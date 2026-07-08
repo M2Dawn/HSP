@@ -178,7 +178,7 @@ export default function Work() {
           {/* Card 3: BIM Automation Tool */}
           <Reveal className="col-span-1 md:col-span-7 h-full" delay={150}>
             <SpotlightCard className="h-full rounded-[1.5rem]" spotlightColor="rgba(34,72,163,0.15)">
-              <Link href="/case-studies/bim-automation-tool" className="group h-full bg-[#0A0A0C] border border-white/5 rounded-[1.5rem] p-6 flex flex-col relative overflow-hidden hover:bg-[#0F0F13] hover:border-white/10 hover:-translate-y-1 transition-all duration-500 shadow-2xl">
+              <a href="/case-studies/bim-automation-tool.html" className="group h-full bg-[#0A0A0C] border border-white/5 rounded-[1.5rem] p-6 flex flex-col relative overflow-hidden hover:bg-[#0F0F13] hover:border-white/10 hover:-translate-y-1 transition-all duration-500 shadow-2xl">
                 <div className="absolute -inset-px bg-gradient-to-b from-brand/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-[1.5rem] pointer-events-none"></div>
 
                 <div className="flex items-center justify-between mb-4">
@@ -207,14 +207,14 @@ export default function Work() {
                     <div className="text-[9px] text-text-3 font-bold uppercase tracking-wider">Revit API</div>
                   </div>
                 </div>
-              </Link>
+              </a>
             </SpotlightCard>
           </Reveal>
 
           {/* Card 4: Dynamo Script Library */}
           <Reveal className="col-span-1 md:col-span-5 h-full" delay={200}>
             <SpotlightCard className="h-full rounded-[1.5rem]" spotlightColor="rgba(250, 204, 21, 0.15)">
-              <Link href="/case-studies/dynamo-scripts" className="group h-full bg-[#0A0A0C] border border-white/5 rounded-[1.5rem] p-6 flex flex-col relative overflow-hidden hover:bg-[#0F0F13] hover:border-white/10 hover:-translate-y-1 transition-all duration-500 shadow-2xl">
+              <a href="/case-studies/dynamo-scripts.html" className="group h-full bg-[#0A0A0C] border border-white/5 rounded-[1.5rem] p-6 flex flex-col relative overflow-hidden hover:bg-[#0F0F13] hover:border-white/10 hover:-translate-y-1 transition-all duration-500 shadow-2xl">
                 <div className="absolute -inset-px bg-gradient-to-b from-yellow-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-[1.5rem] pointer-events-none"></div>
 
                 <div className="flex items-center justify-between mb-4">
@@ -232,7 +232,7 @@ export default function Work() {
                 <div className="relative h-[150px] mt-auto rounded-xl overflow-hidden border border-white/5 bg-[#121216]">
                   <Image src="/images/dynamo-hero.png" alt="Dynamo visual programming workspace" fill sizes="(max-width: 768px) 100vw, 30vw" quality={90} className="object-cover object-top opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700" />
                 </div>
-              </Link>
+              </a>
             </SpotlightCard>
           </Reveal>
 
