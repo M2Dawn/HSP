@@ -193,7 +193,7 @@ export default function Work() {
                   Custom Revit API add-in built during automation training. Replaces tedious manual export workflows with single-click batch sheet exports to DWG with automated naming structures and schedule extractions.
                 </p>
 
-                <div className="grid grid-cols-3 gap-2 border-t border-white/5 pt-4 mt-auto mb-2">
+                <div className="grid grid-cols-3 gap-2 border-t border-white/5 pt-4 mb-4">
                   <div>
                     <div className="text-lg font-bold text-white">~65%</div>
                     <div className="text-[9px] text-text-3 font-bold uppercase tracking-wider">Time Saved</div>
@@ -206,6 +206,10 @@ export default function Work() {
                     <div className="text-lg font-bold text-white">C#</div>
                     <div className="text-[9px] text-text-3 font-bold uppercase tracking-wider">Revit API</div>
                   </div>
+                </div>
+
+                <div className="relative h-[150px] mt-auto rounded-xl overflow-hidden border border-white/5 bg-[#121216]">
+                  <Image src="/images/bim-tool-hero.png" alt="BIM Exporter interface" fill sizes="(max-width: 768px) 100vw, 40vw" quality={90} className="object-cover object-top opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700" />
                 </div>
               </a>
             </SpotlightCard>
