@@ -122,7 +122,7 @@ export default function Hero() {
             <div className="flex flex-wrap items-center gap-x-8 md:gap-x-12 gap-y-6 pt-6 border-t border-white/5">
               <div className="flex flex-col gap-1.5">
                 <span className="text-3xl md:text-4xl font-semibold text-white tracking-tight">3</span>
-                <span className="text-sm text-text-2 font-medium">Technical Internships</span>
+                <span className="text-sm text-text-2 font-medium">Work &amp; Site Roles</span>
               </div>
               
               <div className="flex flex-col gap-1.5">
