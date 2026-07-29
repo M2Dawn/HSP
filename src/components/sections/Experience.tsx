@@ -40,11 +40,11 @@ export default function Experience() {
                 <div className="group bg-[#0A0A0C] border border-white/5 rounded-[1.5rem] p-6 lg:p-8 hover:bg-[#0F0F13] hover:border-brand/30 transition-all duration-500 shadow-xl">
                   <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-3 mb-4">
                     <div>
-                      <h3 className="text-xl font-bold text-white group-hover:text-brand transition-colors duration-300">Technical Office & Site Intern</h3>
+                      <h3 className="text-xl font-bold text-white group-hover:text-brand transition-colors duration-300">Technical Office Engineer</h3>
                       <p className="text-[14px] text-text-2 font-medium">GLOBAL ENERGY FOR INVESTMENT & INDUSTRY</p>
                     </div>
                     <span className="self-start shrink-0 text-[10px] font-mono font-bold uppercase tracking-wider text-brand bg-brand/10 border border-brand/20 px-3 py-1 rounded-full">
-                      May 2026 — Jul 2026
+                      May 2026 — Present
                     </span>
                   </div>
                   <p className="text-[14px] text-text-3 leading-relaxed mb-6">
