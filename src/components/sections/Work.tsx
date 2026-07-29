@@ -13,13 +13,7 @@ interface GalleryImage {
 
 const galleries: Record<string, GalleryImage[]> = {
   'revit-structural': [
-    { src: '/projects/revit-structural/revit-structural-3d-front.jpg', caption: 'Al-Burouj Complex - 3D Structural BIM Model View' },
-    { src: '/projects/albrouj/DJI_0065-2048x1151.jpg', caption: 'Al-Burouj Project - Drone Aerial Master Site Overview' },
-    { src: '/projects/albrouj/DJI_0200.jpg', caption: 'Al-Burouj Project - Villa Clusters Structural Execution & Formwork' },
-    { src: '/projects/albrouj/DJI_0202.jpg', caption: 'Al-Burouj Project - Site RC Concrete Pouring & Rebar Inspection' },
-    { src: '/projects/albrouj/DJI_0208.jpg', caption: 'Al-Burouj Project - Foundation Detailing & Column Rebar Setup' },
-    { src: '/projects/albrouj/DJI_0225.jpg', caption: 'Al-Burouj Project - Reinforced Slab Formwork & Rebar Grid' },
-    { src: '/projects/albrouj/DJI_0231.jpg', caption: 'Al-Burouj Project - Site Administration & Substructure Progress' },
+    { src: '/projects/revit-structural/revit-structural-3d-front.jpg', caption: 'Al-Burouj Structural Complex - 3D BIM Model View' },
   ],
   'revit-course': [
     { src: '/projects/revit-course/revit-course-01.png', caption: 'Emirates HSC Tower - 3D Structural Model' },
@@ -164,7 +158,7 @@ export default function Work() {
                 <div className="relative h-[180px] mt-auto rounded-xl overflow-hidden border border-white/5 bg-[#121216]" onContextMenu={(e) => e.preventDefault()}>
                   <Image src="/projects/revit-structural/revit-structural-3d-front.jpg" alt="Al-Burouj structural rendering" fill sizes="(max-width: 768px) 100vw, 30vw" quality={90} className="object-cover object-center opacity-80 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700 pointer-events-none select-none" draggable="false" />
                   <div className="absolute bottom-3 right-3 bg-black/75 border border-white/10 rounded-md px-2 py-1 text-[10px] font-mono text-white z-20">
-                    📷 7 Site &amp; Model Views
+                    📷 1 View
                   </div>
                 </div>
               </div>
