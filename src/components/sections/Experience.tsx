@@ -133,22 +133,21 @@ export default function Experience() {
                 <div className="group bg-[#0A0A0C] border border-white/5 rounded-[1.5rem] p-6 lg:p-8 hover:bg-[#0F0F13] hover:border-brand/30 transition-all duration-500 shadow-xl">
                   <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-3 mb-4">
                     <div>
-                      <h3 className="text-xl font-bold text-white group-hover:text-brand transition-colors duration-300">BIM Automation Program</h3>
-                      <p className="text-[14px] text-text-2 font-medium">Information Technology Institute (ITI)</p>
+                      <h3 className="text-xl font-bold text-white group-hover:text-brand transition-colors duration-300">Full Stack .NET Developer</h3>
+                      <p className="text-[14px] text-text-2 font-medium">Digital Egypt Pioneers Initiative (DEPI)</p>
                     </div>
                     <span className="self-start shrink-0 text-[10px] font-mono font-bold uppercase tracking-wider text-brand bg-brand/10 border border-brand/20 px-3 py-1 rounded-full">
-                      Professional Training
+                      Nov 2025 — May 2026
                     </span>
                   </div>
                   <p className="text-[14px] text-text-3 leading-relaxed mb-6">
-                    Specialized study of BIM authoring tools and APIs for engineering workflows. Built solid programming foundations in C#, object-oriented programming (OOP), and MVVM to write custom scripts for Revit and AutoCAD APIs, covering database fundamentals and xBIM for structured data workflows.
+                    Built deep foundations in C# programming and object-oriented architecture, directly applicable to Revit API plugin development. Created full-stack web applications using ASP.NET Core MVC and SQL Server, and practiced Git version control, unit testing, and collaborative team delivery.
                   </p>
                   <div className="flex flex-wrap gap-2">
-                    <span className="px-3 py-1 bg-white/5 border border-white/5 rounded-full text-[10px] font-mono text-text-2 group-hover:border-brand/20 group-hover:text-text-1 transition-all duration-300">Revit API</span>
-                    <span className="px-3 py-1 bg-white/5 border border-white/5 rounded-full text-[10px] font-mono text-text-2 group-hover:border-brand/20 group-hover:text-text-1 transition-all duration-300">Dynamo</span>
-                    <span className="px-3 py-1 bg-white/5 border border-white/5 rounded-full text-[10px] font-mono text-text-2 group-hover:border-brand/20 group-hover:text-text-1 transition-all duration-300">AutoCAD API</span>
                     <span className="px-3 py-1 bg-white/5 border border-white/5 rounded-full text-[10px] font-mono text-text-2 group-hover:border-brand/20 group-hover:text-text-1 transition-all duration-300">C# / OOP</span>
-                    <span className="px-3 py-1 bg-white/5 border border-white/5 rounded-full text-[10px] font-mono text-text-2 group-hover:border-brand/20 group-hover:text-text-1 transition-all duration-300">xBIM</span>
+                    <span className="px-3 py-1 bg-white/5 border border-white/5 rounded-full text-[10px] font-mono text-text-2 group-hover:border-brand/20 group-hover:text-text-1 transition-all duration-300">ASP.NET Core</span>
+                    <span className="px-3 py-1 bg-white/5 border border-white/5 rounded-full text-[10px] font-mono text-text-2 group-hover:border-brand/20 group-hover:text-text-1 transition-all duration-300">SQL Server</span>
+                    <span className="px-3 py-1 bg-white/5 border border-white/5 rounded-full text-[10px] font-mono text-text-2 group-hover:border-brand/20 group-hover:text-text-1 transition-all duration-300">Git / Testing</span>
                   </div>
                 </div>
               </SpotlightCard>
@@ -165,21 +164,22 @@ export default function Experience() {
                 <div className="group bg-[#0A0A0C] border border-white/5 rounded-[1.5rem] p-6 lg:p-8 hover:bg-[#0F0F13] hover:border-brand/30 transition-all duration-500 shadow-xl">
                   <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-3 mb-4">
                     <div>
-                      <h3 className="text-xl font-bold text-white group-hover:text-brand transition-colors duration-300">Full Stack .NET Developer</h3>
-                      <p className="text-[14px] text-text-2 font-medium">Digital Egypt Pioneers Initiative (DEPI)</p>
+                      <h3 className="text-xl font-bold text-white group-hover:text-brand transition-colors duration-300">BIM Automation Program</h3>
+                      <p className="text-[14px] text-text-2 font-medium">Information Technology Institute (ITI)</p>
                     </div>
                     <span className="self-start shrink-0 text-[10px] font-mono font-bold uppercase tracking-wider text-brand bg-brand/10 border border-brand/20 px-3 py-1 rounded-full">
-                      DEPI Training
+                      Aug 2025 — Nov 2025
                     </span>
                   </div>
                   <p className="text-[14px] text-text-3 leading-relaxed mb-6">
-                    Built deep foundations in C# programming and object-oriented architecture, directly applicable to Revit API plugin development. Created full-stack web applications using ASP.NET Core MVC and SQL Server, and practiced Git version control, unit testing, and collaborative team delivery.
+                    Specialized study of BIM authoring tools and APIs for engineering workflows. Built solid programming foundations in C#, object-oriented programming (OOP), and MVVM to write custom scripts for Revit and AutoCAD APIs, covering database fundamentals and xBIM for structured data workflows.
                   </p>
                   <div className="flex flex-wrap gap-2">
+                    <span className="px-3 py-1 bg-white/5 border border-white/5 rounded-full text-[10px] font-mono text-text-2 group-hover:border-brand/20 group-hover:text-text-1 transition-all duration-300">Revit API</span>
+                    <span className="px-3 py-1 bg-white/5 border border-white/5 rounded-full text-[10px] font-mono text-text-2 group-hover:border-brand/20 group-hover:text-text-1 transition-all duration-300">Dynamo</span>
+                    <span className="px-3 py-1 bg-white/5 border border-white/5 rounded-full text-[10px] font-mono text-text-2 group-hover:border-brand/20 group-hover:text-text-1 transition-all duration-300">AutoCAD API</span>
                     <span className="px-3 py-1 bg-white/5 border border-white/5 rounded-full text-[10px] font-mono text-text-2 group-hover:border-brand/20 group-hover:text-text-1 transition-all duration-300">C# / OOP</span>
-                    <span className="px-3 py-1 bg-white/5 border border-white/5 rounded-full text-[10px] font-mono text-text-2 group-hover:border-brand/20 group-hover:text-text-1 transition-all duration-300">ASP.NET Core</span>
-                    <span className="px-3 py-1 bg-white/5 border border-white/5 rounded-full text-[10px] font-mono text-text-2 group-hover:border-brand/20 group-hover:text-text-1 transition-all duration-300">SQL Server</span>
-                    <span className="px-3 py-1 bg-white/5 border border-white/5 rounded-full text-[10px] font-mono text-text-2 group-hover:border-brand/20 group-hover:text-text-1 transition-all duration-300">Git / Testing</span>
+                    <span className="px-3 py-1 bg-white/5 border border-white/5 rounded-full text-[10px] font-mono text-text-2 group-hover:border-brand/20 group-hover:text-text-1 transition-all duration-300">xBIM</span>
                   </div>
                 </div>
               </SpotlightCard>
