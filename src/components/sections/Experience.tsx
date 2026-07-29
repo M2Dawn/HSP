@@ -71,11 +71,42 @@ export default function Experience() {
                 <div className="group bg-[#0A0A0C] border border-white/5 rounded-[1.5rem] p-6 lg:p-8 hover:bg-[#0F0F13] hover:border-brand/30 transition-all duration-500 shadow-xl">
                   <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-3 mb-4">
                     <div>
+                      <h3 className="text-xl font-bold text-white group-hover:text-brand transition-colors duration-300">Site Engineer Intern</h3>
+                      <p className="text-[14px] text-text-2 font-medium">REDCON Construction Co. S.A.E – Sawary Project</p>
+                    </div>
+                    <span className="self-start shrink-0 text-[10px] font-mono font-bold uppercase tracking-wider text-brand bg-brand/10 border border-brand/20 px-3 py-1 rounded-full">
+                      Jul 2024 — Sep 2024
+                    </span>
+                  </div>
+                  <p className="text-[14px] text-text-3 leading-relaxed mb-6">
+                    Assisted in site execution and supervision for the Sawary residential development in Alexandria. Conducted site inspections of reinforced concrete (RC) elements, verified rebar placement and formwork dimensions against structural drawings prior to pouring, and monitored concrete casting quality control on site.
+                  </p>
+                  <div className="flex flex-wrap gap-2">
+                    <span className="px-3 py-1 bg-white/5 border border-white/5 rounded-full text-[10px] font-mono text-text-2 group-hover:border-brand/20 group-hover:text-text-1 transition-all duration-300">Site Execution</span>
+                    <span className="px-3 py-1 bg-white/5 border border-white/5 rounded-full text-[10px] font-mono text-text-2 group-hover:border-brand/20 group-hover:text-text-1 transition-all duration-300">RC Inspection</span>
+                    <span className="px-3 py-1 bg-white/5 border border-white/5 rounded-full text-[10px] font-mono text-text-2 group-hover:border-brand/20 group-hover:text-text-1 transition-all duration-300">Rebar Detailing</span>
+                    <span className="px-3 py-1 bg-white/5 border border-white/5 rounded-full text-[10px] font-mono text-text-2 group-hover:border-brand/20 group-hover:text-text-1 transition-all duration-300">Quality Control</span>
+                  </div>
+                </div>
+              </SpotlightCard>
+            </Reveal>
+          </div>
+
+          {/* Internship 3 */}
+          <div className="relative pb-16">
+            <Reveal delay={200}>
+              {/* Subtle Dot */}
+              <div className="absolute -left-[43px] md:-left-[51px] top-1.5 w-[7px] h-[7px] rounded-full bg-white/20 border-2 border-[#050507]"></div>
+              
+              <SpotlightCard className="rounded-[1.5rem]" spotlightColor="rgba(34,72,163,0.15)">
+                <div className="group bg-[#0A0A0C] border border-white/5 rounded-[1.5rem] p-6 lg:p-8 hover:bg-[#0F0F13] hover:border-brand/30 transition-all duration-500 shadow-xl">
+                  <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-3 mb-4">
+                    <div>
                       <h3 className="text-xl font-bold text-white group-hover:text-brand transition-colors duration-300">Technical Office Intern</h3>
                       <p className="text-[14px] text-text-2 font-medium">Aqar Masr Developments – Anakaji Project</p>
                     </div>
                     <span className="self-start shrink-0 text-[10px] font-mono font-bold uppercase tracking-wider text-brand bg-brand/10 border border-brand/20 px-3 py-1 rounded-full">
-                      Jul 2024 — Sep 2024
+                      Jul 2023 — Sep 2023
                     </span>
                   </div>
                   <p className="text-[14px] text-text-3 leading-relaxed mb-6">
@@ -94,7 +125,7 @@ export default function Experience() {
 
           {/* Training 1 */}
           <div className="relative pb-16">
-            <Reveal delay={200}>
+            <Reveal delay={250}>
               {/* Subtle Dot */}
               <div className="absolute -left-[43px] md:-left-[51px] top-1.5 w-[7px] h-[7px] rounded-full bg-white/20 border-2 border-[#050507]"></div>
               
@@ -126,7 +157,7 @@ export default function Experience() {
 
           {/* Training 2 */}
           <div className="relative pb-16">
-            <Reveal delay={250}>
+            <Reveal delay={300}>
               {/* Subtle Dot */}
               <div className="absolute -left-[43px] md:-left-[51px] top-1.5 w-[7px] h-[7px] rounded-full bg-white/20 border-2 border-[#050507]"></div>
               
@@ -157,7 +188,7 @@ export default function Experience() {
 
           {/* Education */}
           <div className="relative pb-6">
-            <Reveal delay={300}>
+            <Reveal delay={350}>
               {/* Subtle Dot */}
               <div className="absolute -left-[43px] md:-left-[51px] top-1.5 w-[7px] h-[7px] rounded-full bg-white/20 border-2 border-[#050507]"></div>
               
