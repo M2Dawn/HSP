@@ -334,7 +334,7 @@ export default function Work() {
             </button>
 
             <h3 className="font-heading text-lg font-bold text-white border-b border-white/5 pb-3">
-              {activeGallery === 'revit-course' ? 'UAE HSC Tower - Revit Structural Views' : '5-Story RC Frame - Revit Views'}
+              {activeGallery === 'revit-course' ? 'Emirates High-Rise Tower - Revit Structural Views' : 'Al-Burouj Structural Complex - Revit Views'}
             </h3>
 
             {/* Main Active Image View */}
